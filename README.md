@@ -2,7 +2,7 @@
 ___
 ## :bulb: ***Project description***
 
-    An application for Clover devices that allows you to increase the price of a item by a percentage.
+    An application for Clover devices that allows you to increase the price of an item by a percentage.
     
 ## :exclamation: ***Features***
 
