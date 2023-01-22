@@ -1,4 +1,4 @@
-﻿# CallApp
+﻿# Clover Price Changer
 ___
 ## :bulb: ***Project description***
 
