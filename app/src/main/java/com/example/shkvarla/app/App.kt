@@ -1,10 +1,7 @@
 package com.example.shkvarla.app
 
 import android.app.Application
-import com.example.shkvarla.di.databaseModule
-import com.example.shkvarla.di.inventoryModule
-import com.example.shkvarla.di.orderModule
-import com.example.shkvarla.di.seviceModul
+import com.example.shkvarla.di.*
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -13,7 +10,7 @@ class App : Application() {
         super.onCreate()
         startKoin {
             androidContext(this@App)
-            modules(listOf(inventoryModule, orderModule, seviceModul, databaseModule))
+            modules(listOf(inventoryModule, orderModule, serviceModule, databaseModule))
         }
     }
 }

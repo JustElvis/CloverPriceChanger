@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var activityBinding: ActivityMainBinding
     private val itemService: ItemService by inject()
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         activityBinding = ActivityMainBinding.inflate(layoutInflater)

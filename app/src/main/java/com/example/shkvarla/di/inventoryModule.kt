@@ -7,6 +7,9 @@ import org.koin.dsl.module
 
 val inventoryModule = module {
     single {
-        InventoryConnector(androidContext(), CloverAccount.getAccount(androidContext()), null)
+        InventoryConnector(androidContext(),
+            CloverAccount.getAccount(androidContext()), null).apply {
+            connect()
+        }
     }
 }

@@ -7,6 +7,9 @@ import org.koin.dsl.module
 
 val orderModule = module {
     single {
-        OrderConnector(androidContext(), CloverAccount.getAccount(androidContext()), null)
+        OrderConnector(androidContext(),
+            CloverAccount.getAccount(androidContext()), null).apply {
+            connect()
+        }
     }
 }
