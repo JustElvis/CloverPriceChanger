@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shkvarla</string>
+    <string name="report_s_id">Report\'s ID</string>
+    <string name="order_id">Order ID</string>
+    <string name="line_item_id">Line item ID</string>
+    <string name="old_price">Old price</string>
+    <string name="new_price">New Price</string>
+    <string name="date">Date</string>
+</resources>
